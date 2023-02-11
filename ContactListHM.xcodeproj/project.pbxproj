@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0ECD1E29982565002AAA57 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECD1D29982565002AAA57 /* TabBarController.swift */; };
+		8C0ECD2029982C5B002AAA57 /* UIColorTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0ECD1F29982C5B002AAA57 /* UIColorTabBar.swift */; };
 		8CE2627B2996C18D00889E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2627A2996C18D00889E32 /* AppDelegate.swift */; };
 		8CE2627D2996C18D00889E32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2627C2996C18D00889E32 /* SceneDelegate.swift */; };
 		8CE2627F2996C18D00889E32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2627E2996C18D00889E32 /* ViewController.swift */; };
 		8CE262822996C18D00889E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE262802996C18D00889E32 /* Main.storyboard */; };
 		8CE262842996C18E00889E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE262832996C18E00889E32 /* Assets.xcassets */; };
 		8CE262872996C18E00889E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE262852996C18E00889E32 /* LaunchScreen.storyboard */; };
+		8CE262902996C22000889E32 /* ModelForContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2628F2996C22000889E32 /* ModelForContact.swift */; };
+		8CE262932996C27000889E32 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE262922996C27000889E32 /* DataStore.swift */; };
+		8CE262952996C2A600889E32 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE262942996C2A600889E32 /* ContactViewController.swift */; };
+		8CE262972996C2CC00889E32 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE262962996C2CC00889E32 /* InfoViewController.swift */; };
+		8CE262992996C2F300889E32 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE262982996C2F300889E32 /* DetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C0ECD1D29982565002AAA57 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8C0ECD1F29982C5B002AAA57 /* UIColorTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTabBar.swift; sourceTree = "<group>"; };
 		8CE262772996C18D00889E32 /* ContactListHM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListHM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE2627A2996C18D00889E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CE2627C2996C18D00889E32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		8CE262832996C18E00889E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CE262862996C18E00889E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CE262882996C18E00889E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE2628F2996C22000889E32 /* ModelForContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForContact.swift; sourceTree = "<group>"; };
+		8CE262922996C27000889E32 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		8CE262942996C2A600889E32 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		8CE262962996C2CC00889E32 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8CE262982996C2F300889E32 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,36 @@
 			children = (
 				8CE2627A2996C18D00889E32 /* AppDelegate.swift */,
 				8CE2627C2996C18D00889E32 /* SceneDelegate.swift */,
-				8CE2627E2996C18D00889E32 /* ViewController.swift */,
+				8CE2628E2996C1A700889E32 /* ViewControllers */,
 				8CE262802996C18D00889E32 /* Main.storyboard */,
+				8CE262912996C23400889E32 /* Models */,
 				8CE262832996C18E00889E32 /* Assets.xcassets */,
 				8CE262852996C18E00889E32 /* LaunchScreen.storyboard */,
 				8CE262882996C18E00889E32 /* Info.plist */,
 			);
 			path = ContactListHM;
+			sourceTree = "<group>";
+		};
+		8CE2628E2996C1A700889E32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2627E2996C18D00889E32 /* ViewController.swift */,
+				8CE262942996C2A600889E32 /* ContactViewController.swift */,
+				8CE262982996C2F300889E32 /* DetailedViewController.swift */,
+				8CE262962996C2CC00889E32 /* InfoViewController.swift */,
+				8C0ECD1D29982565002AAA57 /* TabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8CE262912996C23400889E32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C0ECD1F29982C5B002AAA57 /* UIColorTabBar.swift */,
+				8CE2628F2996C22000889E32 /* ModelForContact.swift */,
+				8CE262922996C27000889E32 /* DataStore.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE262902996C22000889E32 /* ModelForContact.swift in Sources */,
 				8CE2627F2996C18D00889E32 /* ViewController.swift in Sources */,
+				8CE262992996C2F300889E32 /* DetailedViewController.swift in Sources */,
+				8C0ECD1E29982565002AAA57 /* TabBarController.swift in Sources */,
 				8CE2627B2996C18D00889E32 /* AppDelegate.swift in Sources */,
+				8C0ECD2029982C5B002AAA57 /* UIColorTabBar.swift in Sources */,
+				8CE262972996C2CC00889E32 /* InfoViewController.swift in Sources */,
+				8CE262932996C27000889E32 /* DataStore.swift in Sources */,
 				8CE2627D2996C18D00889E32 /* SceneDelegate.swift in Sources */,
+				8CE262952996C2A600889E32 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +345,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Tatarax.ContactListHM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,9 +375,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Tatarax.ContactListHM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
